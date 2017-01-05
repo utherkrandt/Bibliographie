@@ -117,41 +117,49 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="img_bold" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img_bold.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <metadata name="ctEditingMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="mainMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>148, 17</value>
+  </metadata>
+  <metadata name="toolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>258, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="tsCut.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGiSURBVDhPpZHdK0NhHMf31yg3LshLEQlxobaiY6U0IzYT
+        cyEkbzVnNRsWuZuLTSs7k5damhBWGHkJc+Ht2NaZmZpcU186Tuc8x1lSnvr0+30/z/fiqUf1dfBP5OI8
+        cgfv8obMPcSesMAEZI5ALp5f0rDPeWSOWdvEwdGZzBEo5ayLwcZOmN+TqTTazUOIPj4qegJKuRTYhePr
+        FXEuib2DMzToOpFIcIqegFJuhU4wMeuGbyWI/rFJNOqMig6BUkbjT+gdnURr9wiopg5YrHZFhyCjhKnf
+        DkrXA8pgxd5hJGNHQC5iqQ/Y/G/Q0lGMu2+hHjhF/fAVphZZhK9eZF0BKbDJdzQ7X6G13KNC74bG6EL9
+        QAjqwQiqTEFMe75/5gdSsPnToGgO5W0rKG5wwjy+DHXfsXhfRDnFnUAKWjou7oV1Dn7WDV/zkwleIqei
+        U7wnkAJlYfkZCLHI19D83jV1gVK9D9klLcjKzhW7BFIwz9ygTM8gT2NDWe3332+GYyiqMSG/Ug//+qnY
+        JZDC9jGH2vZ5FFQb4F3dJ0u/kVH+ERU+AXfLjkMpY+A1AAAAAElFTkSuQmCC
+</value>
   </data>
-  <data name="img_copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img_copy.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="tsPaste.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJWSURBVDhPpZJrSFNhGMcP9MG+FF2oT30qiL5EEUH1IaMw
+        C9MMIzEjaxFTKVFZlo7U1BRd3pamzcjLUPNWiZJSJELi6K6xGV0kUiPXsnY25y2LX+ccmTY2KOiFHwfO
+        +/5/z/M+vIK0+E+8f/a059B1O5PWqhSvPR8ItNQWzVNVcAy7tQ6X9QbDA/mcVwdSlK3hmk6LPjvJWyCH
+        psRmZhxNTNnrMZZrmBiroSAjjte9yVw8G0yyaivWnhOMdawlPuqgt0AOzzgaKMs5Tp8pH/FTCaMDWj6Y
+        TtFWEUp0pD91qWt4USQQe/SAp6CppmBOIN5ClxpFuiYCbVw4F2LD0KhDSVAFExMZQHH8OkUQEeTvKaiv
+        1DEtNjJtMzAxkovtVRyWmpUK5uoV9JUv4aneTwnLBOzY7CkwGnKYtFUxOZTFxJszuF4eRmxfSmF1B7mG
+        Vi5dbSRZZyQhs4LoFD1RiXmegsrSTMaH9bgG1Iw/C8b5aAtf7q5Swu41M/sTu2OKoVE74TEZhJzULggq
+        CtMQ32bhfBKIs3sjjs7VDFcLSmV5Vd7pUTA0dGEetCrhB70W9oWp5gSleSl86z+Ho2sD4r3l2Jr9GLwp
+        KG3/mP3Fd6dU+bMd83srpv6PBEUmECiF9+w/hP/OXQjFl5OwPY6Rwsv42rKYkdpFWMoE4qU7y227O7gu
+        dVBi7KSt26J8ZbZvWo9wJT1ReSDuKbtRSwP7s/JD0zsl3Hy/j4aO5wsC+R6FaaelFxaKKmwvIbu3KRvy
+        tOU7u6v5Yl7giyPStOUDf0M661vwbwj8BvzlOfEL00EcAAAAAElFTkSuQmCC
+</value>
   </data>
-  <data name="img_cut" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img_cut.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="img_delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img_delete.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="img_italic" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img_italic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="img_modify" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img_modify.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="img_move" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img_move.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="img_new" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img_new.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="img_paste" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img_paste.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="img_preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img_preview.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="img_print" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img_print.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="img_underline" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img_underline.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
+  <metadata name="fontDlg.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>363, 17</value>
+  </metadata>
+  <metadata name="error.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>456, 17</value>
+  </metadata>
 </root>

@@ -1,22 +1,22 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using Bibliographie.Core;
+using log4net.Config;
+using System;
+using System.Configuration;
+using System.IO;
 using System.Windows.Forms;
 
 namespace Bibliographie
 {
-    static class Program
+    internal static class Program
     {
-        /// <summary>
-        /// Point d'entrée principal de l'application.
-        /// </summary>
         [STAThread]
-        static void Main()
+        private static void Main()
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            XmlConfigurator.Configure(new FileInfo(ConfigurationManager.AppSettings.Get("LogConfiguration")));
+            CategoryManagement factor = new CategoryManagement();
+            Application.Run(new MainForm(factor));
         }
     }
 }
